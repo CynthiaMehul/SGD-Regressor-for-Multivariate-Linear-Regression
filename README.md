@@ -9,14 +9,23 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Algorithm
 Step 1: Start the program.
+
 Step 2: Import necessary libraries for data handling, machine learning, and evaluation. Fetch the California housing dataset and create a DataFrame with features and the target.
+
 Step 3: Select the first three features and combine the target with the seventh feature.Split the data into training and testing sets.
-Step 4: Apply StandardScaler to normalize both X and Y for training and testing datasets
+
+Step 4: Apply StandardScaler to normalize both X and Y for training and testing datasets.
+
 Step 5: Initialize an SGDRegressor model.Use MultiOutputRegressor to handle multiple outputs.
+
 Step 6: Fit the model to the scaled training data.
-Step 7: Predict on the test set.Inverse transform the predictions and test data to their original scale
+
+Step 7: Predict on the test set.Inverse transform the predictions and test data to their original scale.
+
 Step 8: Calculate the Mean Squared Error (MSE) between the predicted and actual values. 
+
 Step 9: Print the MSE and display the first few predictions.
+
 Step 10: End the program.
 
 ## Program:
